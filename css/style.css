@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,400;0,600;0,700;1,200;1,400;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: left;
+}
+
+/* Sección Header-NavBar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: xx-large;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.page {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+/* Fin Sección Header-NavBar*/
+
+/*Sección Presentación*/
+.pres__container {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pres__img {
+    max-width: 41%;
+    height: auto;
+}
+/*Fin Sección Presentación*/
+
+/* Sección Educación */
+.edu {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.edu__career {
+    font-weight: bold;
+}
+
+.edu__skills li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.edu__container {
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.edu__container .left, .edu__container .right {
+    width: 45%;
+}
+
+.edu__container .left {
+    text-align: left;
+}
+
+.edu__container .right {
+    text-align: left;
+}
+
+.edu__container .right p {
+    margin-bottom: 10px;
+}
+/* Fin de Sección Educación */
+
+/* Sección Contacto */
+.cont__container {
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#cont {
+    scroll-margin-top: 100px;
+    margin-bottom: 140px;
+}
+/* Fin de Sección Contacto */
+
+/* Sección Footer */
+footer {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+}
+/* Fin Sección Footer */
